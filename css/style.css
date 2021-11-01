@@ -1,0 +1,22 @@
+:root{
+    --color-1: #e36414;
+    --color-2: #fb8b24;
+    --color-3: #293241;
+    --color-4: #faedcd;
+}
+.navbar {
+    background-color: var(--color-1);
+}
+.carousel-inner{
+    height: 28rem;
+}
+section{
+    padding: 4rem 0;
+}
+.footer{
+    background-color: var(--color-3);
+    padding: 2rem 0;
+}
+.projects{
+    background-color: var(--color-4);
+}

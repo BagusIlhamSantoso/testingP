@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>HIMATEKOM</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link Icon -->
+    <link rel="icon" href="img/Himatekom Transparan.png">
+
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Link Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+            <img src="img/Himatekom Transparan.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        HIMATEKOM
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tk">Tentang Kami</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#projects" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">IoT</a></li>
+              <li><a class="dropdown-item" href="#">Programming</a></li>
+              <li><a class="dropdown-item" href="#">Network</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Akhir Navbar -->
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!-- Akhir Carousel -->
+
+<!-- Tentang Kami -->
+<section class="tk" id="tk">
+    <div class="container">
+        <div class="row ms-auto text-center">
+            <div class="col mb-3">
+                <h2>Tentang Kami</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, architecto!</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatem harum quidem voluptate totam. Aspernatur harum iusto error recusandae incidunt?</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minima reprehenderit nobis soluta, magni omnis nemo veniam cupiditate. Facere, dolore.</p>
+                <a class="btn btn-primary" href="tentangKami.html" role="button">
+                    Cek Selengkapnya
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Akhir Tentang Kami -->
+
+<section class="projects" id="projects">
+    <div class="container ms-auto">
+        <div class="row">
+            <div class="col text-center mb-3">
+                <h2>Project Kami</h2>
+            </div>
+        </div>
+        <div class="row text-dark justify-content-center ms-auto">
+            <div class="col-md-4 mb-3">
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="img/project1.jpg" class="card-img-top" alt="IoT" height="250px">
+                        <div class="card-body">
+                              <h5 class="card-title">IoT</h5>
+                              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, ipsa.</p>
+                              <a href="#" class="btn btn-primary">Cek Selengkapnya</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="img/project2.jpg" class="card-img-top" alt="IoT" height="250px">
+                        <div class="card-body">
+                                  <h5 class="card-title">Programming</h5>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, ipsa.</p>
+                                  <a href="#" class="btn btn-primary">Cek Selengkapnya</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                    <div class="card shadow" style="width: 20rem;">
+                        <img src="img/project3.jpg" class="card-img-top" alt="IoT" height="250px">
+                        <div class="card-body">
+                                  <h5 class="card-title">Network</h5>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, ipsa.</p>
+                                  <a href="#" class="btn btn-primary">Cek Selengkapnya</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h2>Kontak Kami</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                    <form>
+                            <div class="mb-3">
+                              <label for="name" class="form-label">Nama Lengkap</label>
+                              <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <label for="email" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <label for="pesan" class="form-label">Pesan Anda</label>
+                              <textarea class="form-control" placeholder="Tinggalkan Komen Anda" id="pesan" style="height: 100px"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Akhir -->
+
+<!-- footer -->
+<footer class="footer text-light">
+    <div class="container">
+        <div class="row">
+            <h5>HIMATEKOM</h5>
+            <hr class="display-4">
+        </div>
+        <div class="row mb-2">
+            <div class="col">
+                Kontak Kami
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col ms-auto">
+                    <a class="btn btn-light me-2" href="#" role="button">
+                            <i class="bi bi-whatsapp"></i>
+                            WhatsApp
+                        </a>
+                        <a class="btn btn-light me-2" href="#" role="button">
+                            <i class="bi bi-instagram"></i>
+                            Instagram
+                        </a>
+                        <a class="btn btn-light me-2" href="#" role="button">
+                            <i class="bi bi-envelope"></i>
+                            Email
+                        </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- akhir footer -->
+
+<!-- Link script bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
